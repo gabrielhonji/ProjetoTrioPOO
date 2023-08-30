@@ -43,6 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Atividade1\Colaborador.cs" />
+    <Compile Include="Atividade1\Coordenador.cs" />
+    <Compile Include="Atividade1\Diretor.cs" />
+    <Compile Include="Atividade1\Professor.cs" />
+    <Compile Include="Atividade2\Conta.cs" />
+    <Compile Include="Atividade2\Corrente.cs" />
+    <Compile Include="Atividade2\Poupanca.cs" />
+    <Compile Include="Atividade3\Moto.cs" />
+    <Compile Include="Atividade3\Taxi.cs" />
+    <Compile Include="Atividade3\Uber.cs" />
+    <Compile Include="Atividade3\Veiculo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
