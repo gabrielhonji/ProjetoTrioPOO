@@ -1,8 +1,17 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\ProjetoTrioPOO"
   ],
   "SelectedNode": "\\ProjetoTrioPOO\\Program.cs",
+=======
+    "\\ProjetoTrioPOO",
+    "\\ProjetoTrioPOO\\Atividade1",
+    "\\ProjetoTrioPOO\\Atividade2",
+    "\\ProjetoTrioPOO\\Atividade3"
+  ],
+  "SelectedNode": "\\ProjetoTrioPOO\\Atividade3\\Taxi.cs",
+>>>>>>> f54c7f89a52f1858d3a2ccfbe5e39d9054c385cc
   "PreviewInSolutionExplorer": false
 }

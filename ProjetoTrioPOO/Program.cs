@@ -51,6 +51,7 @@ namespace ProjetoTrioPOO
 
             //corrente.CalcularImposto(saque);
 
+<<<<<<< Updated upstream
             //// Ex03
             //Atividade3.Taxi taxi = new Atividade3.Taxi();
             //taxi.CalcGasValue();
@@ -59,11 +60,20 @@ namespace ProjetoTrioPOO
 
             //moto.CalcularValorCombustivel();
             moto.CalcularTotal();
+<<<<<<< HEAD
 
             Atividade3.Uber uber = new Atividade3.Uber();
             Console.WriteLine("Qual uber vc quer usar UberXShare,UberGreen,UberReserve");
             uber.EscolherVeiculo();
             
+=======
+=======
+            // Ex03
+            Atividade3.Taxi taxi = new Atividade3.Taxi();
+            taxi.CalcularValorCombustivel();
+            taxi.CalcularTotal();
+>>>>>>> Stashed changes
+>>>>>>> f54c7f89a52f1858d3a2ccfbe5e39d9054c385cc
         }
     }
 }

@@ -12,7 +12,8 @@ namespace ProjetoTrioPOO.Atividade3
         public int passengersAmount;
         public double gasAmount;
         public double payAmount;
-        public override void CalcGasValue()
+        public double paymentSplit;
+        public override void CalcularValorCombustivel()
         {
             Console.Write("Qual foi a quantidade de combustivel gasto: ");
             double gasAmount = Convert.ToInt32(Console.ReadLine());
@@ -50,5 +51,41 @@ namespace ProjetoTrioPOO.Atividade3
                     break;
             }
         }
-    }
+        public override void CalcularTotal()
+        {
+            Console.Write("Quantas pessoas farão a viagem: ");
+            passengersAmount = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Quantidades de Kms a serem rodados durante a viagem: ");
+            double km = Convert.ToInt32(Console.ReadLine());
+            if (passengersAmount == 2 && km > 30 )
+            {
+                payAmount = km * 20;
+                paymentSplit = payAmount / passengersAmount;
+                Console.WriteLine($"Em uma viagem de {km} Km para {passengersAmount} passageiros o valor total a ser pago é igual a R$ {payAmount}, que dividido igualmente pelos passageiros é igual a R$ {paymentSplit} para cada");
+            }
+            else if (passengersAmount == 3 && km > 30)
+            {
+                payAmount = km * 35;
+                paymentSplit = payAmount / passengersAmount;
+                Console.WriteLine($"Em uma viagem de {km} Km para {passengersAmount} passageiros o valor total a ser pago é igual a R$ {payAmount}, que dividido igualmente pelos passageiros é igual a R$ {paymentSplit} para cada");
+            }
+            else if (passengersAmount == 4 && km > 30)
+            {
+                payAmount = km * 50;
+                paymentSplit = payAmount / passengersAmount;
+                Console.WriteLine($"Em uma viagem de {km} Km para {passengersAmount} passageiros o valor total a ser pago é igual a R$ {payAmount}, que dividido igualmente pelos passageiros é igual a R$ {paymentSplit} para cada");
+            }
+            else if (passengersAmount == 2 || passengersAmount == 3 || passengersAmount == 4 && km <= 30)
+            {
+                payAmount = km * 10;
+                paymentSplit = payAmount / passengersAmount;
+                Console.WriteLine($"Em uma viagem de {km} Km para {passengersAmount} passageiros o valor total a ser pago é igual a R$ {payAmount}, que dividido igualmente pelos passageiros é igual a R$ {paymentSplit} para cada");
+            }
+            else
+            {
+                payAmount = km * 18;
+                paymentSplit = payAmount / passengersAmount;
+                Console.WriteLine($"Em uma viagem de {km} Km para {passengersAmount} passageiros o valor total a ser pago é igual a R$ {payAmount}, que dividido igualmente pelos passageiros é igual a R$ {paymentSplit} para cada");
+            }
+        }
 }
