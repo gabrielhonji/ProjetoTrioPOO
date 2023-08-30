@@ -51,6 +51,7 @@ namespace ProjetoTrioPOO
 
             //corrente.CalcularImposto(saque);
 
+<<<<<<< Updated upstream
             //// Ex03
             //Atividade3.Taxi taxi = new Atividade3.Taxi();
             //taxi.CalcGasValue();
@@ -59,6 +60,12 @@ namespace ProjetoTrioPOO
 
             //moto.CalcularValorCombustivel();
             moto.CalcularTotal();
+=======
+            // Ex03
+            Atividade3.Taxi taxi = new Atividade3.Taxi();
+            taxi.CalcularValorCombustivel();
+            taxi.CalcularTotal();
+>>>>>>> Stashed changes
         }
     }
 }

@@ -59,9 +59,5 @@ namespace ProjetoTrioPOO.Atividade3
                 Console.WriteLine(km * 15.00);
             }
         }
-        public virtual void CalcGasValue()
-        {
-
-        }
     }
 }
