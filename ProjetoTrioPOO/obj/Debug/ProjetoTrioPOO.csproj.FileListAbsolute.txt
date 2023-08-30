@@ -1,0 +1,8 @@
+C:\Users\Aluno\Desktop\ProjetoTrioPOO\ProjetoTrioPOO\obj\Debug\ProjetoTrioPOO.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\ProjetoTrioPOO\ProjetoTrioPOO\obj\Debug\ProjetoTrioPOO.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aluno\Desktop\ProjetoTrioPOO\ProjetoTrioPOO\obj\Debug\ProjetoTrioPOO.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\ProjetoTrioPOO\ProjetoTrioPOO\bin\Debug\ProjetoTrioPOO.exe.config
+C:\Users\Aluno\Desktop\ProjetoTrioPOO\ProjetoTrioPOO\bin\Debug\ProjetoTrioPOO.exe
+C:\Users\Aluno\Desktop\ProjetoTrioPOO\ProjetoTrioPOO\bin\Debug\ProjetoTrioPOO.pdb
+C:\Users\Aluno\Desktop\ProjetoTrioPOO\ProjetoTrioPOO\obj\Debug\ProjetoTrioPOO.exe
+C:\Users\Aluno\Desktop\ProjetoTrioPOO\ProjetoTrioPOO\obj\Debug\ProjetoTrioPOO.pdb
